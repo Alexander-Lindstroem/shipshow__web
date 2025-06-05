@@ -47,7 +47,7 @@ const Sidebar = ({ sectionChosed, setSection }: sidebarProps) => {
                         {chest_names.map((item, index) => (
                             <div className="relative group" key={index}>
                                 <Image
-                                    src={item === sectionChosed ? `/pirate_OpenChest.png` : `/pirate_ClosedChest.png`}
+                                    src={item === sectionChosed ? `/pirate_Openchest.png` : `/pirate_Closedchest.png`}
                                     alt={`chest ${index + 1}`}
                                     width={75}
                                     height={50}
