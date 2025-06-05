@@ -40,7 +40,7 @@ const Sidebar = ({ sectionChosed, setSection }: sidebarProps) => {
                         src="/pirate_side nav planks.png"
                         alt="plank"
                         fill
-                        className="object-contain z-0 pointer-events-none"
+                        className="object-contain z-0 pointer-events-none hidden sm:block"
                     />
 
                     <div className="absolute inset-0 z-10 flex flex-col items-start justify-center gap-4 ml-10">
