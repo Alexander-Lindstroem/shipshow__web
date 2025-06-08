@@ -1,6 +1,8 @@
+import AboutGame from "@/components/AboutGame";
+
 const Home = () =>  {
   return (
-    <div>home</div>
+    <AboutGame />
   );
 }
 
