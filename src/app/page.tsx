@@ -1,4 +1,4 @@
-import Characters from "@/components/MainCharacters";
+import Characters from "@/components/Characters";
 const Home = () =>  {
   return (
     <Characters />

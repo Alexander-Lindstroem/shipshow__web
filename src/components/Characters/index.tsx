@@ -46,13 +46,13 @@ export default function Characters() {
   return (
     <div className=" w-full min-h-screen bg-orange-100  overflow-x-hidden">
       {/* Selected Character */}
-      <div className=" flex flex-col lg:flex-row md:flex-col md:mt-0 sm:flex-col items-center md:w-full md:h-auto">
+      <div className=" flex flex-col lg:flex-row md:flex-col md:mt-0 sm:flex-col items-center md:w-full md:h-auto ml-1 lg:ml-40 md:ml-5 sm:ml-2">
         <Image
           src={selectedCharacter.image}
           alt={selectedCharacter.name}
           width={200}
           height={200}
-          className=" w-[20rem] h-[20rem] sm:w-80 sm:h-80 max-w-xl md:w-[26rem] md:h-[26rem] lg:w-[34rem] lg:h-[34rem] object-contain mt-3"
+          className=" w-[20rem] h-[20rem] sm:w-80 sm:h-80 max-w-xl md:w-[26rem] md:h-[24rem] lg:w-[34rem] lg:h-[34rem] object-contain mt-1"
           priority
         />
 
