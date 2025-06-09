@@ -44,14 +44,14 @@ export default function Characters() {
         />
 
         <div className=" flex flex-col w-100 ml-0 sm:ml-2 md:mr-2 md:h-full md:pl-6 lg:px-0 px-4 sm:px-6 sm:mt-0">
-          <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-medium text-black mb-4 sm:mb-5 lg:mt-20 font-name text-left">
+          <h2 className=" text-2xl sm:text-3xl md:text-4xl lg:text-3xl font-medium text-black mb-4 sm:mb-5 lg:mt-20 font-asheader text-left">
             {selectedCharacter.name}
           </h2>
-          <p className="text-sm sm:text-base md:text-lg lg:text-base font-semibold font-info leading-6 mb-2 sm:mb-3 lg:mb-4 max-w-2xl text-left">
+          <p className="text-sm sm:text-base md:text-lg lg:text-base font-semibold font-asbody leading-6 mb-2 sm:mb-3 lg:mb-4 max-w-2xl text-left">
             {selectedCharacter.info}
           </p>
 
-          <p className=" text-sm sm:text-base sm:mb-3 md:text-lg lg:text-base font-semibold font-info leading-6 mb-2 lg:mb-3 max-w-2xl text-left">
+          <p className=" text-sm sm:text-base sm:mb-3 md:text-lg lg:text-base font-semibold font-asbody leading-6 mb-2 lg:mb-3 max-w-2xl text-left">
             {selectedCharacter.info2}
           </p>
 
