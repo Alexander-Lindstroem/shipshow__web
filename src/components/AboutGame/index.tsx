@@ -29,30 +29,38 @@ const aboutgame: Game[] = [
 
 export default function AboutGame() {
   return (
-    <section className="w-full bg-[#f8e4c2] py-12 px-4 sm:px-8 md:px-16">
+    <section className="w-full bg-orange-100 py-12 px-4 sm:px-8 md:px-18 lg:px-24 overflow-hidden">
+
       {aboutgame.map((game, index) => (
         <div
           key={game.id}
-          className={`flex flex-col lg:flex-row items-center justify-center gap-8 mb-16 ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}
+          className={`flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8 ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}
         >
-          <div className="w-full lg:w-1/2">
+          <div className="w-full md:w-[80%] sm:w-[90%] lg:w-1/3">
             <Image
               src={game.gameimage}
               alt={game.title}
-              width={600}
-              height={400}
-              className="w-full h-auto rounded-md shadow-md"
+              width={500}
+              height={300}
+              className="w-full h-[320px] lg:h-[250px] md:h-[350px] sm:h-[300px] shadow-md"
               priority
             />
           </div>
-          <div className="w-full lg:w-1/2 text-black">
-            <h2 className="text-2xl md:text-3xl font-bold font-name mb-4">
+          <div className="w-full lg:w-1/3 md:w-[80%] text-inherit">
+            <h2 className="text-3xl lg:text-3xl md:text-4xl sm:text-2xl font-medium leading-3 tracking-normal font-name mb-6 lg:mb-8 md:mb-8 sm:mb-4">
               {game.title}
             </h2>
-            <p className="text-base md:text-lg font-info mb-3 leading-relaxed">
-              {game.info}
-            </p>
-            <p className="text-base md:text-lg font-info leading-relaxed">
+            {game.id === "Absolute" ? (
+              <p className="text-xl lg:text-lg md:text-xl sm:text-base  font-info mb-3 leading-6">
+                Absolut Shipshow is a <span className="font-semibold text-black">chaotic, co-op</span> combat game where you and your friends play as ill-prepared pirates fighting off waves of enemies aboard ever-sinking ships.
+              </p>
+            ) : (
+              <p className="text-xl lg:text-lg md:text-xl sm:text-base font-info mb-3 leading-6">
+                {game.info}
+              </p>
+            )}
+
+            <p className="text-xl lg:text-lg md:text-xl sm:text-base font-info leading-6">
               {game.info2}
             </p>
           </div>
