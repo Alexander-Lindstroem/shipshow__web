@@ -4,8 +4,8 @@
 
 
 @theme {
-  --font-asheader: 'Jolly Lodger'
-  --font-asbody: 'Inter'
+  --font-asheader: 'Jolly Lodger';
+  --font-asbody: 'Inter';
 }
 
 * {
