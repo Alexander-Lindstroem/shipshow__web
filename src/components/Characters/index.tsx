@@ -3,18 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-type Character = {
-  id: string;
-  name: string;
-  info: string;
-  info2: string;
-  posterImage: string;
-  image: string;
-  FaceImage: string;
-  TransparantImage: string;
-};
-
-const characters: Character[] = [
+const characters = [
   {
     id: "char1",
     name: "Helga",
@@ -42,10 +31,8 @@ export default function Characters() {
   const selectedCharacter = characters.find((c) => c.id === selectedId);
   if (!selectedCharacter) return null;
 
-
   return (
     <div className=" w-full min-h-screen bg-orange-100  overflow-x-hidden">
-      {/* Selected Character */}
       <div className=" flex flex-col lg:flex-row md:flex-col md:mt-0 sm:flex-col items-center md:w-full md:h-auto ml-1 lg:ml-40 md:ml-5 sm:ml-2">
         <Image
           src={selectedCharacter.image}
@@ -84,7 +71,6 @@ export default function Characters() {
                     <div
                       className="relative w-38 h-36 sm:w-34 sm:h-34 md:w-[190px] md:h-[190px] mt-8 sm:mt-3 md:mt-0 lg:mt-0 mr-5 sm:mr-3 md:mr-0 lg:mr-0 ml-3 sm:ml-1 md:ml-0 lg:ml-0 overflow-visible"
                     >
-                      {/* Poster background */}
                       <Image
                         src={char.posterImage}
                         alt={`${char.name} wanted poster`}
@@ -92,7 +78,6 @@ export default function Characters() {
                         height={500}
                         className="object-cover z-0 absolute inset-0 md:w-full md:h-fit"
                       />
-                      {/* Character image overlaid */}
                       <div
                         className=" absolute 
                            w-30 h-30
@@ -113,8 +98,6 @@ export default function Characters() {
                           className="w-full h-full object-cover object-top"
                         />
                       </div>
-
-                      {/* overlay text */}
                       <div
                         className="
                           absolute bottom-0 left-1/2 -translate-x-1/2 top-35 text-bold
@@ -127,8 +110,6 @@ export default function Characters() {
                         <p className="text-bold">$5000</p>
                         <p className="text-[10px]">Dead or Alive</p>
                       </div>
-
-
                     </div>
                   ) : (
                     <div className=" relative w-30 h-32  mt-12 ml-10 mr-10
@@ -137,7 +118,6 @@ export default function Characters() {
                      md:w-[8rem] md:h-[10rem] md:ml-2 md:mt-5
                      rounded-lg  border-2 border-solid border-inherit    
                      overflow-hidden">
-                      {/* Normal character image on bottom */}
                       <Image
                         src={char.FaceImage}
                         alt={char.name}
@@ -145,8 +125,6 @@ export default function Characters() {
                         height={500}
                         className="absolute inset-0 w-full h-full grayscale hover:grayscale-0 transition"
                       />
-
-                      {/* Transparent image overlay*/}
                       <Image
                         src={char.TransparantImage}
                         alt={`${char.name} transparent overlay`}
