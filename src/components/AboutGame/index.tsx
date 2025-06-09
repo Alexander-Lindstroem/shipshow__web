@@ -59,7 +59,6 @@ export default function AboutGame() {
                 {game.info}
               </p>
             )}
-
             <p className="text-xl lg:text-lg md:text-xl sm:text-base font-info leading-6">
               {game.info2}
             </p>
