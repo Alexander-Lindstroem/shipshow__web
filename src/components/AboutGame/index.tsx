@@ -22,7 +22,7 @@ export default function AboutGame() {
             What is Absolute Shipshow?
           </h2>
           <p className="text-xl lg:text-lg md:text-xl sm:text-base font-info mb-3 leading-6">
-            Absolut Shipshow is a <span className="font-semibold text-black">chaotic, co-op</span> combat game where you and your friends play as ill-prepared pirates fighting off waves of enemies aboard ever-sinking ships.
+            Absolute Shipshow is a <span className="font-semibold text-black">chaotic, co-op</span> combat game where you and your friends play as ill-prepared pirates fighting off waves of enemies aboard ever-sinking ships.
           </p>
           <p className="text-xl lg:text-lg md:text-xl sm:text-base font-info leading-6">
             Work together, improvise with whatever you find onboard, and survive long enough to loot the treasure — before the whole ship goes under!
