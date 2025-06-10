@@ -1,6 +1,7 @@
+import Characters from "@/components/Characters";
 const Home = () =>  {
   return (
-    <div>home</div>
+    <Characters />
   );
 }
 
