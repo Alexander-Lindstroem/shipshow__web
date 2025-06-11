@@ -1,10 +1,12 @@
 'use client'
+
 import { useEffect, useState } from "react";
 import Sidebar from "@/components/sidebar";
 import MainPage from "@/components/MainPage";
 import AboutGame from "@/components/AboutGame";
 import Features from "@/components/Features";
 import Characters from "@/components/Characters";
+
 
 const sectionIds:string[] = ["main_page","about_game","features","characters"];
 
