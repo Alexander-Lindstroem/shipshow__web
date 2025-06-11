@@ -39,6 +39,7 @@ const Home = () => {
   }, [chosenSection]);
 
   return (
+
     <div>
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
 
@@ -47,6 +48,7 @@ const Home = () => {
       <Features />
       <Characters />
     </div>
+
   );
 };
 
