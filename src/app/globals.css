@@ -3,6 +3,11 @@
 
 @import "tailwindcss";
 
+@theme {
+  --font-asheader: 'Jolly Lodger';
+  --font-asbody: 'Inter';
+}
+
 * {
   box-sizing: border-box;
 }
@@ -14,12 +19,4 @@ html {
 body {
   margin: 0;
   height: 100%;
-}
-
-.font-name {
-  font-family: 'Jolly Lodger';
-}
-
-.font-info {
-  font-family: 'Inter';
 }
