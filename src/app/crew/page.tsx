@@ -1,6 +1,8 @@
+import CrewIntroduction from "@/components/CrewIntroduction"
+
 const Crew = () => {
     return (
-        <h1>Crew page</h1>
+        <CrewIntroduction/>
     )
 }
 
