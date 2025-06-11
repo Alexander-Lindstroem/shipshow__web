@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
 
 const Introduction = () => {
     return (
@@ -15,11 +13,14 @@ const Introduction = () => {
             <p className="text-black font-asheader text-lg sm:text-2xl leading-relaxed max-w-md mt-6">
                 Chaos reigns on the seven seas - set sail, grab whatever you can, and battle your way through the mayhem!
             </p>
-            <Link href=" ">
-                <button className="mt-6 bg-white text-red-600 text-base px-6 py-3 rounded-3xl hover:bg-red cursor-pointer transition-all">
-                    Download on itch.io
-                </button>
-            </Link>
+            <a className="mt-6 bg-white hover:bg-[#9f9f9f] text-red-600 text-base px-6 py-3 rounded-3xl cursor-pointer transition-all"
+             href="https://futuregames.itch.io/absoluteshipshow"
+             target="_blank"
+             rel="noopener noreferrer"
+             role="button"
+             >
+                Download on itch.io
+            </a>
         </div>
     )
 }
