@@ -1,0 +1,1 @@
+    export const chest_names: string[] = ["main_page", "about_game", "features", "characters"];
