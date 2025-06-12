@@ -2,17 +2,12 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { sidebarProps } from "@/utils/types";
+import { chest_names } from "@/utils/data";
 
-type sidebarProps = {
-    sectionChosed: string | null,
-    setSection: (section: string) => void;
-}
 
 const Sidebar = ({ sectionChosed, setSection }: sidebarProps) => {
     const [hovering, setHovering] = useState<boolean>(false);
-    // const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
-
-    const chest_names: string[] = ["main_page", "about_game", "features", "characters"];
 
     const handleClick = (item: string) => {
         setSection(item);
@@ -63,7 +58,6 @@ const Sidebar = ({ sectionChosed, setSection }: sidebarProps) => {
                                     {item === "main_page" ? "A Hoy!" : item.replace("_", " ")}
                                 </div>
                             </div>
-
 
                         ))}
                     </div>
