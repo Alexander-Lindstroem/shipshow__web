@@ -12,7 +12,7 @@ export default function Characters() {
   if (!selectedCharacter) return null;
 
   return (
-    <div className=" w-full min-h-screen bg-orange-100  overflow-x-hidden">
+    <div id="characters" className=" w-full min-h-screen bg-orange-100  overflow-x-hidden">
       <div className=" flex flex-col lg:flex-row md:flex-col md:mt-0 sm:flex-col items-center md:w-full md:h-auto ml-1 lg:ml-40 md:ml-5 sm:ml-2">
         <Image
           src={selectedCharacter.image}
