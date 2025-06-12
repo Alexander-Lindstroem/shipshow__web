@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Sidebar from "@/components/sidebar";
 import { chest_names } from "@/utils/data";
+import AboutGame from "@/components/AboutGame";
 
 const Home = () => {
   const [chosenSection, setChosenSection] = useState<string | null>(null);
@@ -36,6 +37,7 @@ const Home = () => {
 
     <div>
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
+      <AboutGame />
     </div>
 
   );
