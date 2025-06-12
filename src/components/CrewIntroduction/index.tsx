@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const CrewIntroduction = () => {
     return (
-        <div className="bg-[url(/crew__introduction-background.png)] flex flex-col justify-center items-center h-[400px] md:h-[700px] relative overflow-hidden">
+        <div className="bg-[url(/absolute_ship.png)] bg-cover flex flex-col justify-center items-center h-[400px] md:h-[700px] relative overflow-hidden">
             <div className=" text-center text-white md:w-[40%]">
                 <h1 className="font-asheader text-7xl p-4">The Crew</h1>
                 <p className="font-asbody text-2xl p-4">Meet the crew of Absolute ShipShow as they set sail across the seven seas with barrels at the ready!</p>
