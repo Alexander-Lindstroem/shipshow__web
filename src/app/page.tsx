@@ -41,7 +41,6 @@ const Home = () => {
   return (
     <div>
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
-
       <MainPage />
       <AboutGame />
       <Features />
