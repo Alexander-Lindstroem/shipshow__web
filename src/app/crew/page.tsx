@@ -4,7 +4,6 @@ import TeamSection from "@/components/TeamSection"
 const Crew = () => {
     return (
         <>
-            <TeamSection/>
             <SeparatingPlank/>
             <TeamSection/>
         </>
