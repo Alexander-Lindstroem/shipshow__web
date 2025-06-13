@@ -1,6 +1,12 @@
+import SeparatingPlank from "@/components/SeparatingPlank"
+import TeamSection from "@/components/TeamSection"
+
 const Crew = () => {
     return (
-        <h1>Crew page</h1>
+        <>
+            <SeparatingPlank/>
+            <TeamSection/>
+        </>
     )
 }
 
