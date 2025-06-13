@@ -9,7 +9,7 @@ export default function AboutGame() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8">
         <div className="w-full md:w-[80%] sm:w-[90%] lg:w-1/3">
           <Image
-            src="/ship1.png"
+            src="/ship.png"
             alt="What is Absolute Shipshow?"
             width={500}
             height={300}
@@ -33,7 +33,7 @@ export default function AboutGame() {
       <div className="flex flex-col  items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8 lg:flex-row-reverse">
         <div className="w-full md:w-[80%] sm:w-[90%] lg:w-1/3">
           <Image
-            src="/ship2.png"
+            src="/fight-ship.png"
             alt="How to play?"
             width={500}
             height={300}
