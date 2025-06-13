@@ -17,6 +17,7 @@ export default function AboutGame() {
             priority
           />
         </div>
+        
         <div className="w-full lg:w-1/3 md:w-[80%] text-inherit">
           <h2 className="text-3xl lg:text-3xl md:text-4xl sm:text-2xl font-medium leading-3 tracking-normal font-asheader mb-6 lg:mb-8 md:mb-8 sm:mb-4">
             What is Absolute Shipshow?
