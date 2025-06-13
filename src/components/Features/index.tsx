@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-      <section id="featutres" className="w-full min-h-screen pt-40 lg:pt-50 md:pt-50 sm:pt-10 py-12 bg-orange-100 text-black overflow-x-hidden pl-18 sm:pl-8 md:pl-0 lg:pl-0">
+      <section id="features" className="w-full min-h-screen pt-40 lg:pt-50 md:pt-50 sm:pt-10 py-12 bg-orange-100 text-black overflow-x-hidden pl-18 sm:pl-8 md:pl-0 lg:pl-0">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="flex flex-col lg:flex-row md:flex-col items-center justify-between gap-10 mb-16">
           <div className="relative w-full md:w-1/2 lg:w-1/3 h-[250px] sm:h-[160px] mb-0 lg:mb-12 md:mb-26">
@@ -49,7 +49,7 @@ export default function Features() {
         <div className="flex flex-col lg:flex-row-reverse md:flex-col items-center justify-between gap-10">
           <div className="md:w-1/2  ">
             <Image
-              src="/ship2.png"
+              src="/fight-ship.png"
               alt="Enemy ship"
               width={500}
               height={400}
