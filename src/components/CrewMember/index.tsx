@@ -5,7 +5,7 @@ const CrewMember = ({name, title, image}:teamMember) => {
     return (
         <div className="relative w-fit">
             <Image 
-                src="/wanted-poster-crew.png" width={300} height={1} alt="wanted poster"
+                src="/wanted-poster-crew.png" width={312} height={1} alt="wanted poster"
                 className="relative z-20 h-auto"
             />
             <Image 
