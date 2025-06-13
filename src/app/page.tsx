@@ -5,6 +5,7 @@ import Sidebar from "@/components/sidebar";
 import { chest_names } from "@/utils/data";
 import AboutGame from "@/components/AboutGame";
 import Features from "@/components/Features";
+import Characters from "@/components/Characters";
 
 const Home = () => {
   const [chosenSection, setChosenSection] = useState<string | null>(null);
@@ -40,6 +41,7 @@ const Home = () => {
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <AboutGame />
       <Features/>
+      <Characters />
     </div>
 
   );
