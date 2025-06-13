@@ -49,7 +49,7 @@ export default function Features() {
         <div className="flex flex-col lg:flex-row-reverse md:flex-col items-center justify-between gap-10">
           <div className="md:w-1/2  ">
             <Image
-              src="/fight-ship.png"
+              src="/ship.png"
               alt="Enemy ship"
               width={500}
               height={400}
