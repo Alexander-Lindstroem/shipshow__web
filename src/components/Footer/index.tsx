@@ -1,17 +1,22 @@
-import Logo from "../Logo"
-import Link from "next/link"
+import Image from "next/image";
 
 const Footer = () => {
-    return (
-        <footer className="flex flex-col items-center gap-2 bg-amber-800 p-2 ">
-            <Logo/>
-            <div className=" flex flex-col items-center text-black font-asheader">
-                <Link href={'/'}><h3 className="text-2xl">Absolue Shipshow</h3></Link>
-                <Link href={'/crew'}><h3 className="text-2xl">The crew</h3></Link>
-            </div>
-            <p>&copy; Absolute Shipshow 2025</p>
-        </footer>
-    )
-}
+  return (
+    <footer className="relative h-32 w-full overflow-hidden">
+      <div className="absolute top-0 left-1/2 w-[120vw] h-full -translate-x-1/2">
+        <Image
+          src="/plank.png"
+          alt="Footer Plank"
+          fill
+          priority
+          className="object-cover"
+        />
+      </div>
+      <div className="relative z-10 flex h-full items-center justify-center text-white">
+        <p></p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
