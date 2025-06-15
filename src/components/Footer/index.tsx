@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="relative h-32 w-full overflow-hidden">
-      <div className="absolute top-0 left-1/2 w-[120vw] h-full -translate-x-1/2">
+    <footer className="relative min-h-28 h-28 w-full overflow-hidden">
+      <div className="absolute top-0 left-1/2 w-[120vw] h-32 -translate-x-1/2">
         <Image
           src="/plank.png"
           alt="Footer Plank"
