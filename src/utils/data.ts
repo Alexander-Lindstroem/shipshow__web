@@ -74,26 +74,26 @@ export const teamMembers:teamMember[] = [
     {
     name: "Alexander Lindström",
     title: "Frontend Developer",
-    image: "/profile.jpg"
+    image: "/alexander.jpg"
     },
     {
     name: "Victor Furustubbe",
     title: "Frontend Developer",
-    image: "/profile.jpg"
+    image: "/victor.jpg"
     },
     {
     name: "Caroline Lindbom",
     title: "Frontend Developer",
-    image: "/profile.jpg"
+    image: "/caroline.jpg"
     },
     {
     name: "Vaishali Govindaraj",
     title: "Frontend Developer",
-    image: "/profile.jpg"
+    image: "/vaishali.jpg"
     },
     {
     name: "Kavitha Ganesan",
     title: "Frontend Developer",
-    image: "/profile.jpg"
+    image: "/kavitha.jpg"
     },
 ]
