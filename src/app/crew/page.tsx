@@ -4,10 +4,12 @@ import CrewIntroduction from "@/components/CrewIntroduction"
 
 const Crew = () => {
     return (
-        <>  <CrewIntroduction/>
+        <>
+            <CrewIntroduction/>
             <SeparatingPlank/>
             <TeamSection/>
         </>
+        
     )
 }
 
