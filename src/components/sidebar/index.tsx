@@ -31,12 +31,12 @@ const Sidebar = ({ sectionChosed, setSection }: sidebarProps) => {
                         src="/pirate_side_nav_planks.png"
                         alt="plank"
                         fill
-                        className="object-contain z-0 hidden min-[800px]:block"
+                        className="object-contain z-0 hidden min-[769px]:block"
                     />
 
                     <div className="absolute inset-0  z-10 flex flex-col justify-center gap-4 pointer-events-auto">
                         {chest_names.map((item, index) => (
-                            <div className="relative group min-[800px]:ml-8" key={index}>
+                            <div className="relative group min-[769px]:ml-8" key={index}>
                                 <Image
                                     src={item === sectionChosed ? `/pirate_Openchest.png` : `/pirate_Closedchest.png`}
                                     alt={`chest ${index + 1}`}
