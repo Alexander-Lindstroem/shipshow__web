@@ -2,7 +2,7 @@ import Introduction from "@/components/Introduction";
 
 const Home = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div id="main_page" className="relative w-full h-screen">
       <video
         autoPlay
         loop
