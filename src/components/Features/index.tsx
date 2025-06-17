@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section id="features" className="w-full min-h-screen pt-20  py-12 bg-orange-100 text-black overflow-x-hidden">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pl-24 md:pl-30 lg:pl-28">
-        <div className="flex flex-col lg:flex-row md:flex-col items-center justify-between gap-10 mb-16">
-          <div className="relative w-full lg:w-[400px] md:w-[500px] h-[250px] sm:h-[180px] mb-0 lg:mb-12 md:mb-26 max-[768px]:w-[350px]">
+    <section id="features" className="w-full min-h-screen  py-12 bg-orange-100 text-black overflow-x-hidden">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pl-24 md:pl-30 lg:pl-28 mt-10 md:mt-25 lg:mt-30">
+        <div className="mx-auto flex flex-col lg:flex-row md:flex-col items-center justify-between gap-10 mb-16">
+          {/* <div className="relative w-full lg:w-[400px] md:w-[500px] h-[250px] sm:h-[180px] mb-0 lg:mb-12 md:mb-16 max-[768px]:w-[350px] items-center justify-center">
             <div className="absolute bottom-0 left-0 transform sm:-translate-x-10 -translate-x-4 -translate-y-1 rotate-[-12deg]">
               <Image
                 src="/pirate_box.png"
@@ -15,7 +15,7 @@ export default function Features() {
                 width={130}
                 height={100}
                 priority
-                className="object-contain w-[200px] h-[180px]  lg:mr-10 md:mr-10  lg:w-[320px] lg:h-[220px] md:w-[340px] md:h-[240px] "
+                className="object-contain w-[200px] h-[180px] lg:mr-10 md:mr-10 lg:w-[320px] lg:h-[220px] md:w-[340px] md:h-[240px] "
               />
             </div>
 
@@ -29,9 +29,34 @@ export default function Features() {
                 className="object-contain w-[250px] h-[190px]  lg:ml-16 lg:w-[320px] lg:h-[280px] md:w-[330px] md:h-[280px]"
               />
             </div>
+          </div> */}
+
+          <div className="relative w-full lg:w-[400px] md:w-[500px] h-[250px] sm:h-[180px] mb-0 lg:mb-12 md:mb-16 max-[768px]:w-[350px] flex items-center justify-center">
+            <div className="absolute bottom-0 left-0 transform sm:-translate-x-10 -translate-x-4 -translate-y-1 rotate-[-12deg] max-[350px]:translate-x-0">
+              <Image
+                src="/pirate_box.png"
+                alt="Crate weapon"
+                width={130}
+                height={100}
+                priority
+                className="object-contain w-[200px] h-[180px] lg:mr-10 md:mr-10 lg:w-[320px] lg:h-[220px] md:w-[340px] md:h-[240px] max-[350px]:w-[250px] max-[350px]:h-[160px] max-[240px]:w-[220px] max-[240px]:h-[140px] max-[240px]:ml-20"
+              />
+            </div>
+
+            <div className="absolute top-0 right-0 transform translate-x-10 translate-y-1 rotate-[15deg] max-[350px]:translate-x-0">
+              <Image
+                src="/pirate_explosive.png"
+                alt="Barrel weapon"
+                width={300}
+                height={250}
+                priority
+                className="object-contain w-[250px] h-[190px] lg:ml-16 lg:w-[320px] lg:h-[280px] md:w-[330px] md:h-[280px] max-[350px]:w-[250px] max-[350px]:h-[160px] max-[240px]:w-[200px] max-[240px]:h-[120px]"
+              />
+            </div>
           </div>
 
-          <div className=" w-full lg:w-[400px] md:w-[500px] text-inherit text-justify">
+
+          <div className=" w-full lg:w-[400px] md:w-[500px] text-inherit text-justify max-[768px]:max-w-[450px]">
             <h2 className="text-xl lg:text-3xl md:text-2xl font-medium leading-3 tracking-normal font-asheader mb-6 lg:mb-8 md:mb-8 sm:mb-4">
               Anything can be your weapon!</h2>
             <p className="text-sm lg:text-lg md:text-base font-asbody mb-3 leading-6">
@@ -47,17 +72,17 @@ export default function Features() {
         </div>
 
         <div className="flex flex-col lg:flex-row-reverse md:flex-col items-center justify-between gap-10">
-          <div className="w-full lg:w-[400px] md:w-[500px]  ">
+          <div className="w-full lg:w-[400px] md:w-[500px] flex justify-center">
             <Image
               src="/ship.png"
               alt="Enemy ship"
               width={500}
               height={380}
               priority
-              className="w-[450px] h-[270px] object-cover lg:w-[400px] lg:h-[330px] md:w-[500px] md:h-[370px]"
+              className="w-[450px] h-[270px] object-cover lg:w-[400px] lg:h-[330px] md:w-[500px] md:h-[370px] "
             />
           </div>
-          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify">
+          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify max-[768px]:max-w-[450px]">
             <h2 className="text-xl lg:text-3xl md:text-2xl font-medium leading-3 tracking-normal font-asheader mb-6 lg:mb-8 md:mb-8 sm:mb-4">
               Take over the enemies’ ships!</h2>
             <p className="text-sm lg:text-lg md:text-base sm:text-base font-asbody mb-3 leading-6">
