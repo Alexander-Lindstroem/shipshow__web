@@ -9,7 +9,8 @@ export default function CharacterSelector({
   setSelectedId,
 }: CharacterSelectorProps) {
   return (
-    <div className="flex justify-start gap-6 px-2 sm:px-0 mt-0 sm:mt-6 md:mt-0 lg:mt-0">
+    <div className="flex justify-center items-center max-w-[80%] sm:max-w-[80%] md:max-w-[60%] lg:max-w-[60%] mx-auto">
+
       {characters.map((char, index) => {
         const isActive = char.id === selectedId;
 
@@ -17,13 +18,13 @@ export default function CharacterSelector({
           <button
             key={char.id}
             onClick={() => setSelectedId(char.id)}
-            className={`relative w-24 h-24 sm:w-32 sm:h-32 md:w-44 md:h-62 lg:w-58 lg:h-64 focus:outline-none mb-16  mr-8 ml-0 lg:ml-0 md:ml-0 sm:ml-0 ${index !== characters.length - 1 ? "sm:mr-6" : ""
+            className={`relative  h-24 sm:w-32 sm:h-32 md:w-44 md:h-62 lg:w-58 lg:h-64 focus:outline-none mb-16  ml-0 lg:ml-0 md:ml-0 sm:ml-0 ${index !== characters.length - 1 ? "sm:mr-6" : ""
               }`}
             aria-pressed={isActive}
           >
             {isActive ? (
               <div
-                className="relative w-38 h-36 sm:w-34 sm:h-34 md:w-[190px] md:h-[190px] mt-8 sm:mt-3 md:mt-0 lg:mt-0 mr-4 sm:mr-2 md:mr-0 lg:mr-0 ml-6 sm:ml-1 md:ml-0 lg:ml-0 overflow-visible"
+                className="relative w-38 h-36 sm:w-34 sm:h-34 md:w-[190px] md:h-[190px] mt-8 sm:mt-3 md:mt-0 lg:mt-0 mr-10 sm:mr-2 md:mr-0 lg:mr-0 ml-0 sm:ml-1 md:ml-0 lg:ml-0 overflow-visible"
               >
                 <Image
                   src={char.posterImage}
@@ -66,7 +67,7 @@ export default function CharacterSelector({
                 </div>
               </div>
             ) : (
-              <div className=" relative w-30 h-32  mt-12 ml-10 mr-12
+              <div className=" relative w-30 h-32  mt-12 ml-0 mr-12
                      lg:w-[10rem] lg:h-[11rem] lg:ml-1 lg:mt-6 lg:mr-0
                      sm:w-[5rem] sm:h-[5rem] sm:ml-0 sm:mr-5
                      md:w-[8rem] md:h-[10rem] md:ml-2 md:mt-5
