@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function AboutGame() {
   return (
     <section id="about_game" className="w-full min-h-screen bg-orange-100  pb-12 px-4 sm:px-8 md:px-18 lg:px-24 overflow-hidden pt-10 ">
-      <div className="max-w-5xl  mx-auto pl-26 md:pl-30 lg:pl-28">
+      <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-28 mt-10 md:mt-20 lg:mt-30">
         <div className="mx-auto flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8">
           <div className="w-full lg:w-[400px] md:w-[500px]">
             <Image
