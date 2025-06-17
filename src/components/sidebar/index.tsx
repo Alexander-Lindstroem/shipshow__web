@@ -52,7 +52,7 @@ const Sidebar = ({ sectionChosed, setSection }: sidebarProps) => {
 
                                 />
 
-                                <div className={`absolute left-[70px] top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 pointer-events-none transition bg-black text-white text-xl rounded px-2 py-1 z-50 whitespace-nowrap  font-asheader hidden md:block`}>
+                                <div className={`absolute left-[70px] top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 pointer-events-none transition  bg-[#835c33] text-white text-xl rounded px-2 py-1 z-50 whitespace-nowrap  font-asheader hidden md:block`}>
                                     {item === "main_page" ? "A Hoy!" :   item.replace("_", " ").replace(/\b\w/g, (char) => char.toUpperCase())}
                                 </div>
 
