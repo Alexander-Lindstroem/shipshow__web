@@ -13,7 +13,7 @@ export default function Characters() {
 
   return (
     <section id="characters" className=" w-full min-h-screen bg-orange-100  overflow-x-hidden  py-12 pt-10 pl-0 md:pl-0 lg:pl-10">
-      <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-28 mt-10 md:mt-22 lg:mt-30">
+      <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-8 mt-10 md:mt-22 lg:mt-30">
         <div className=" mx-auto flex flex-col lg:flex-row md:flex-col  sm:flex-col items-center justify-center md:w-full md:h-auto ">
           <div className="w-full flex justify-center mt-10">
             <Image
@@ -25,7 +25,7 @@ export default function Characters() {
               priority
             />
           </div>
-          <div className=" w-full lg:w-[400px] md:w-[550px] flex flex-col ml-0 sm:ml-2 md:mr-2 md:h-full md:pl-6 lg:px-10 px-4 sm:px-6  text-inherit text-justify max-[768px]:max-w-[450px] ">
+          <div className=" w-full lg:w-[430px] md:w-[550px] flex flex-col ml-0 sm:ml-2 md:mr-2 md:h-full md:pl-6 lg:px-10 px-4 sm:px-6  text-inherit text-justify max-[768px]:max-w-[450px] ">
 
             <CharacterSelector
               characters={characters}

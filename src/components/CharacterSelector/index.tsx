@@ -66,7 +66,7 @@ export default function CharacterSelector({
               </div>
             ) : (
               <div className=" relative w-22 h-26  mt-12 ml-0 mr-6
-                     lg:w-[8rem] lg:h-[10rem] lg:ml-2 lg:mt-7 lg:mr-0
+                     lg:w-[8rem] lg:h-[10rem] lg:ml-1 lg:mt-7 lg:mr-0
                      md:w-[7rem] md:h-[8rem] md:ml-4 md:mt-5
                      rounded-lg  border-2 border-solid border-inherit    
                      overflow-hidden">
