@@ -1,3 +1,4 @@
+    export const chest_names: string[] = ["main_page", "about_game", "features", "characters"];
 import { teamMember } from "./types"
 
 export const teamMembers:teamMember[] = [
