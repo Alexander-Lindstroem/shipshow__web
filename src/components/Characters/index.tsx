@@ -13,7 +13,7 @@ export default function Characters() {
 
   return (
     <section id="characters" className=" w-full min-h-screen bg-orange-100  overflow-x-hidden  py-12 pt-10 pl-0 md:pl-0 lg:pl-10">
-      <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-8 mt-22 md:mt-22 lg:mt-30">
+      <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-8 mt-26 md:mt-22 lg:mt-30">
         <div className=" mx-auto flex flex-col lg:flex-row md:flex-col  sm:flex-col items-center justify-center md:w-full md:h-auto ">
           <div className="w-full flex justify-center mt-10">
             <Image
@@ -21,7 +21,7 @@ export default function Characters() {
               alt={selectedCharacter.name}
               width={500}
               height={400}
-              className="w-[16rem] h-[14rem] sm:w-80 sm:h-80 md:w-[24rem] md:h-[22rem] lg:w-[34rem] lg:h-[36rem] object-contain"
+              className="w-[16rem] h-[14rem] sm:w-80 sm:h-80 md:w-[24rem] md:h-[22rem] lg:w-[28rem] lg:h-[36rem] object-contain"
               priority
             />
           </div>
