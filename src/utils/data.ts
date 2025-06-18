@@ -100,6 +100,7 @@ export const teamMembers:teamMember[] = [
     image: "/profile.jpg"
     },
 ]
+<<<<<<< HEAD
 
 export const characters: Character[] = [
     {
@@ -126,3 +127,5 @@ export const characters: Character[] = [
   },
 ];
 
+=======
+>>>>>>> fix/header-logo
