@@ -9,7 +9,7 @@ export default function CharacterSelector({
   setSelectedId,
 }: CharacterSelectorProps) {
   return (
-    <div className="flex justify-center items-center max-w-[80%] sm:max-w-[80%] md:max-w-[60%] lg:max-w-[60%] mx-auto">
+    <div className="flex justify-center items-center max-w-[80%] sm:max-w-[80%] md:max-w-[60%] lg:max-w-[60%] mx-auto ">
 
       {characters.map((char, index) => {
         const isActive = char.id === selectedId;
@@ -24,7 +24,7 @@ export default function CharacterSelector({
           >
             {isActive ? (
               <div
-                className="relative w-27 h-28 md:w-[160px] md:h-[160px] lg:w-[180px] lg:h-[180px] mt-8 sm:mt-3 md:mt-0 lg:mt-0 mr-6 sm:mr-2 md:mr-0 lg:mr-0 ml-0 sm:ml-1 md:ml-0 lg:ml-0 overflow-visible"
+                className="relative w-27 h-28 md:w-[160px] md:h-[160px] lg:w-[180px] lg:h-[180px] mt-8 sm:mt-3 md:mt-0 lg:mt-0 mr-6 sm:mr-2 md:mr-0 lg:mr-0 ml-0 sm:ml-1 md:ml-0 lg:ml-0 overflow-visible "
               >
                 <Image
                   src={char.posterImage}
@@ -43,7 +43,8 @@ export default function CharacterSelector({
                            md:w-[123px] md:h-[126px]
                            lg:top-10 lg:left-6 lg:translate-x-0
                            lg:w-[135px] lg:h-[138px]
-                          flex items-center z-10 p-2 overflow-hidden"
+                          flex items-center z-10 p-2 overflow-hidden
+                          "
                 >
                   <Image
                     src={char.FaceImage}
