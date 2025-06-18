@@ -9,8 +9,7 @@ export default function CharacterSelector({
   setSelectedId,
 }: CharacterSelectorProps) {
   return (
-    <div className="flex max-[350px]:flex-wrap justify-center items-center max-w-[80%] sm:max-w-[80%] md:max-w-[60%] lg:max-w-[60%] mx-auto gap-4">
-
+    <div className="flex max-[350px]:flex-wrap justify-center items-center max-w-[80%] sm:max-w-[80%] md:max-w-[60%] lg:max-w-[60%] mx-auto gap-4 max-[256px]:pl-8 max-[200px]:pl-14">
       {characters.map((char, index) => {
         const isActive = char.id === selectedId;
 
@@ -18,13 +17,13 @@ export default function CharacterSelector({
           <button
             key={char.id}
             onClick={() => setSelectedId(char.id)}
-            className={`relative h-20 md:w-48 md:h-58 lg:w-50 lg:h-48 focus:outline-none mb-16 mt-0 lg:mt-5 ml-0 lg:ml-2 md:ml-0  ${index !== characters.length - 1 ? "sm:mr-6" : ""
+            className={`relative h-20 md:w-48 md:h-58 lg:w-50 lg:h-48 focus:outline-none mb-26 md:mb-5 lg:mb-10  mt-0 lg:mt-5 ml-0 lg:ml-2 md:ml-0  ${index !== characters.length - 1 ? "sm:mr-6" : ""
               }`}
             aria-pressed={isActive}
           >
             {isActive ? (
               <div
-                className="relative w-27 h-28 md:w-[144px] md:h-[144px] lg:w-[160px] lg:h-[160px] mt-8  md:mt-0 lg:mt-0 mr-6  md:mr-0 lg:mr-0 ml-0  md:ml-0 lg:ml-0 overflow-visible "
+                className="relative flex justify-center w-27 h-28 md:w-[144px] md:h-[144px] lg:w-[160px] lg:h-[160px] mt-8  md:mt-0 lg:mt-0 mr-6  md:mr-0 lg:mr-0 ml-0  md:ml-0 lg:ml-0 overflow-visible "
               >
                 <Image
                   src={char.posterImage}
@@ -62,7 +61,7 @@ export default function CharacterSelector({
                           text-sm"
                 >
                   <p className="font-extrabold text-xs md:text-base lg:text-base">$5000</p>
-                  <p className="text-[8px] md:text-[10px] lg:text-[10px]">Dead or Alive</p>
+                  <p className="text-[8px] md:text-xs lg:text-[10px]">Dead or Alive</p>
                 </div>
               </div>
             ) : (
