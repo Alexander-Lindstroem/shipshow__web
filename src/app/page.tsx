@@ -7,6 +7,8 @@ import AboutGame from "@/components/AboutGame";
 import Features from "@/components/Features";
 import Characters from "@/components/Characters";
 import Hero from "@/components/Hero";
+import PalmTreesLeftRight from "@/components/PalmTreesLeftRight";
+import PalmTreesBottom from "@/components/PalmTreesBottom";
 
 const Home = () => {
   const [chosenSection, setChosenSection] = useState<string | null>(null);
@@ -42,7 +44,9 @@ const Home = () => {
       <Hero />
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <AboutGame />
+      <PalmTreesLeftRight />
       <Features/>
+      <PalmTreesBottom />
       <Characters />
     </div>
 
