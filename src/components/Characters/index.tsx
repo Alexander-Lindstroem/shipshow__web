@@ -13,7 +13,7 @@ export default function Characters() {
 
   return (
     <section id="characters" className=" w-full min-h-screen bg-orange-100  overflow-x-hidden  py-12 pt-10 pl-0 md:pl-0 lg:pl-10">
-      <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-28 mt-10 md:mt-20 lg:mt-30">
+      <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-28 mt-18 md:mt-24 lg:mt-30">
         <div className=" mx-auto flex flex-col lg:flex-row md:flex-col  sm:flex-col items-center justify-center md:w-full md:h-auto ">
           <div className="w-full flex justify-center">
             <Image
