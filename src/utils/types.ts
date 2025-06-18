@@ -14,3 +14,14 @@ export interface CharacterSelectorProps {
   selectedId: string;
   setSelectedId: (id: string) => void;
 }
+
+export type sidebarProps = {
+    sectionChosed: string | null,
+    setSection: (section: string) => void;}
+    
+export type teamMember = {
+    name: string,
+    title: string,
+    image: string,
+
+}
