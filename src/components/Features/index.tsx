@@ -6,7 +6,7 @@ export default function Features() {
   return (
     <section id="features" className="w-full min-h-screen  py-12 bg-orange-100 text-black overflow-x-hidden">
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pl-26 md:pl-30 lg:pl-[8rem] [@media(min-width:1022px)]:pl-[11rem] mt-10 md:mt-20 lg:mt-28">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pl-26 md:pl-30 lg:pl-[8rem] [@media(min-width:1022px)]:pl-[11rem] mt-16 md:mt-28 lg:mt-28">
         <div className="mx-auto flex flex-col lg:flex-row md:flex-col items-center justify-between gap-10 mb-16">
           <div className="relative w-full lg:w-[400px] md:w-[500px] h-[250px] sm:h-[180px] mb-0 lg:mb-12 md:mb-16 max-[768px]:w-[350px] flex items-center justify-center">
             <div className="absolute bottom-0 left-0 transform -translate-y-1 rotate-[-12deg] sm:-translate-x-10 translate-x-2 max-[300px]:translate-x-2 max-[250px]:translate-x-2">
