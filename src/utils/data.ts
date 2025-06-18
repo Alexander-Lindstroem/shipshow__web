@@ -1,7 +1,7 @@
-export const chest_names: string[] = ["main_page", "about_game", "features", "characters"];
-
 import { teamMember } from "./types"
 import type { Character } from "./types";
+
+export const chest_names: string[] = ["main_page", "about_game", "features", "characters"];
 
 export const teamMembers:teamMember[] = [
     {
@@ -145,4 +145,3 @@ export const characters: Character[] = [
       "Always the first to declare victory, Gregore leads with dramatic flair, reckless courage, and a dangerouslyopen shirt. He's bold, loud, and deeply convinced he was born to rule the seas - or at least look good trying",
   },
 ];
-
