@@ -3,7 +3,7 @@ import Image from "next/image";
 const Introduction = () => {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen mt-12 sm:mt-10 text-center">
-            <Image className="w-[300px] sm:w-[300px] md:w-[400px] drop-shadow-[-10px_8px_rgba(0,0,0,0.50)]"
+            <Image className="w-[200px] sm:w-[300px] md:w-[400px] drop-shadow-[-10px_8px_rgba(0,0,0,0.50)]"
                 src="/shipshow_logo.png"
                 alt="Absolute Shipshow Logo"
                 width={400}
