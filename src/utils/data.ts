@@ -4,27 +4,37 @@ export const teamMembers:teamMember[] = [
     {
     name: "Kameliya Kermani",
     title: "Producer",
-    image: "/profile.jpg"
+    image: "/kameliya.jpg"
     },
     {
     name: "Ludvig Eriksson",
     title: "Project Manager",
-    image: "/profile.jpg"
+    image: "/ludvig.jpg"
     },
     {
     name: "Kaveh Esmaili",
     title: "Release Manager",
-    image: "/profile.jpg"
+    image: "/kaveh.jpg"
     },
     {
     name: "Cecilia Wretemark Hauc",
     title: "Game Design + PO",
-    image: "/profile.jpg"
+    image: "/cecilia.jpg"
     },
     {
     name: "Kasper Enwall",
     title: "Lead Designer",
-    image: "/profile.jpg"
+    image: "/kasper.jpg"
+    },
+    {
+    name: "Vamsi Kasina",
+    title: "Game Designer",
+    image: "/vamsi.jpg"
+    },
+    {
+    name: "Emil Månsson",
+    title: "Game Designer",
+    image: "/emil.jpg"
     },
     {
     name: "Oky Indra Wijaya Palm",
@@ -34,12 +44,12 @@ export const teamMembers:teamMember[] = [
     {
     name: "Ella Olson",
     title: "Game Artist",
-    image: "/profile.jpg"
+    image: "/ella.jpg"
     },
     {
     name: "Kristin Walkhed",
     title: "Game Artist",
-    image: "/profile.jpg"
+    image: "/kristin.jpg"
     },
     {
     name: "Tim-Eliza White",
@@ -54,22 +64,22 @@ export const teamMembers:teamMember[] = [
         {
     name: "Leou Xia",
     title: "Game Programmer",
-    image: "/profile.jpg"
+    image: "/leou.jpg"
     },
     {
     name: "Martin Magnusson",
     title: "Game Programmer",
-    image: "/profile.jpg"
+    image: "/martin.jpg"
     },
     {
     name: "Philip Bernström",
     title: "Animator",
-    image: "/profile.jpg"
+    image: "/philip.jpg"
     },
     {
     name: "Mandve Signha Roy",
     title: "VFX Artist",
-    image: "/profile.jpg"
+    image: "/mandve.jpg"
     },
     {
     name: "Alexander Lindström",
@@ -95,5 +105,15 @@ export const teamMembers:teamMember[] = [
     name: "Kavitha Ganesan",
     title: "Frontend Developer",
     image: "/kavitha.jpg"
+    },
+    {
+    name: "Malin Bergfjord",
+    title: "Web UX Designer",
+    image: "/malin.jpg"
+    },
+    {
+    name: "Noah Celius",
+    title: "Web UX Designer",
+    image: "/noah.jpg"
     },
 ]
