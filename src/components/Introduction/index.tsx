@@ -10,9 +10,9 @@ const Introduction = () => {
                 height={400}
                 priority
             />
-            <p className="text-white font-asheader text-2xl sm:text-2xl md:text-3xl leading-relaxed max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl -mt-2 px-24 sm:px-16 md:px-10">
+            <h1 className="text-white font-asheader text-2xl sm:text-2xl md:text-3xl leading-relaxed max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl -mt-2 px-24 sm:px-16 md:px-10">
                 Chaos reigns on the seven seas - set sail, grab whatever you can, and battle your way through the mayhem!
-            </p>
+            </h1>
             <a className="mt-6 bg-white hover:bg-[#9f9f9f] text-red-600 text-base px-6 py-3 rounded-3xl cursor-pointer transition-all"
              href="https://futuregames.itch.io/absoluteshipshow"
              target="_blank"
