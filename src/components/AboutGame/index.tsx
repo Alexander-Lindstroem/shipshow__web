@@ -31,7 +31,7 @@ export default function AboutGame() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8 lg:flex-row-reverse">
+        <div className="flex flex-col items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-20 lg:flex-row-reverse">
           <div className=" w-full lg:w-[400px] md:w-[500px]">
             <Image
               src="/fight_ship.png"
@@ -42,7 +42,7 @@ export default function AboutGame() {
               priority
             />
           </div>
-          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify mb-12 lg:mb-0">
+          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify">
             <h2 className="text-xl lg:text-3xl md:text-2xl  font-medium leading-3 tracking-normal font-asheader mb-6 lg:mb-8 md:mb-8 sm:mb-4">
               How to play?
             </h2>
