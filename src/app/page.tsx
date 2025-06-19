@@ -39,13 +39,17 @@ const Home = () => {
 
   return (
     <div>
+      <PalmTreesLeftRight />
       <Hero />
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <PalmTreesLeftRight />
-      <PalmTreesBottom />
       <AboutGame />
+      <PalmTreesBottom/>
+      <PalmTreesLeftRight/>
       <Features/>
+      <PalmTreesLeftRight/>
       <Characters />
+      <PalmTreesBottom/>
     </div>
   );
 };
