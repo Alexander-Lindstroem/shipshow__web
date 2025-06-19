@@ -41,10 +41,10 @@ const Home = () => {
     <div>
       <Hero />
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
-      <PalmTreesLeftRight />
-      <PalmTreesBottom />
       <AboutGame />
+      <PalmTreesLeftRight />
       <Features/>
+      <PalmTreesBottom />
       <Characters />
     </div>
   );
