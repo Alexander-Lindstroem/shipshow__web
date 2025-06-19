@@ -12,7 +12,7 @@ export default function Characters() {
   if (!selectedCharacter) return null;
 
   return (
-    <section id="characters" className=" w-full min-h-screen bg-orange-100  overflow-x-hidden  py-12 pt-10 pl-0 md:pl-0 lg:pl-10">
+    <section id="characters" className="bg-[url(/background-paper.png)] bg-center bg-no-repeat bg-size-[1600px_95%] lg:bg-size-[110%_88%] w-full min-h-screen overflow-x-hidden py-12 pt-10 pl-0 md:pl-0 lg:pl-10 mt-6 lg:mt-0 lg:mb-0 mb-12">
       <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-8 mt-26 md:mt-22 lg:mt-30">
         <div className=" mx-auto flex flex-col lg:flex-row md:flex-col  sm:flex-col items-center justify-center md:w-full md:h-auto ">
           <div className="w-full flex justify-center mt-10">
@@ -25,8 +25,7 @@ export default function Characters() {
               priority
             />
           </div>
-          <div className=" w-full lg:w-[430px] md:w-[550px] flex flex-col ml-0 sm:ml-2 md:mr-2 md:h-full md:pl-6 lg:px-10 px-4 sm:px-6  text-inherit text-justify max-[768px]:max-w-[450px] ">
-
+          <div className=" w-full lg:w-[430px] md:w-[550px] flex flex-col ml-0 sm:ml-2 md:mr-2 md:h-full md:pl-6 lg:px-10 px-4 sm:px-6 text-inherit text-justify max-[768px]:max-w-[450px] mb-12">
             <CharacterSelector
               characters={characters}
               selectedId={selectedId}
