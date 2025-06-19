@@ -44,6 +44,7 @@ const Home = () => {
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <PalmTreesLeftRight />
       <AboutGame />
+      <PalmTreesBottom/>
       <PalmTreesLeftRight/>
       <Features/>
       <PalmTreesLeftRight/>
