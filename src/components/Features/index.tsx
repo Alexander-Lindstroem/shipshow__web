@@ -4,8 +4,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section id="features" className="w-full min-h-screen  py-12 bg-orange-100 text-black overflow-x-hidden">
-
+    <section id="features" className="bg-[url(/background-paper.png)] bg-center bg-no-repeat bg-size-[1600px_95%] lg:bg-size-[110%_88%] w-full min-h-screen  py-12 text-black overflow-x-hidden">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pl-26 md:pl-30 lg:pl-[8rem] [@media(min-width:1022px)]:pl-[11rem] mt-16 md:mt-28 lg:mt-28">
         <div className="mx-auto flex flex-col lg:flex-row md:flex-col items-center justify-between gap-10 mb-16">
           <div className="relative w-full lg:w-[400px] md:w-[500px] h-[250px] sm:h-[180px] mb-0 lg:mb-12 md:mb-16 max-[768px]:w-[350px] flex items-center justify-center">
@@ -55,10 +54,10 @@ export default function Features() {
               width={500}
               height={380}
               priority
-              className="w-[450px] h-[270px] object-cover lg:w-[400px] lg:h-[330px] md:w-[500px] md:h-[370px] "
+              className="w-[450px] h-[270px] object-cover lg:w-[400px] lg:h-[330px] md:w-[500px] md:h-[370px] rounded-2xl"
             />
           </div>
-          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify max-[768px]:max-w-[450px]">
+          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify max-[768px]:max-w-[450px] mb-20 lg:mb-0">
             <h2 className="text-xl lg:text-3xl md:text-2xl font-medium leading-3 tracking-normal font-asheader mb-6 lg:mb-8 md:mb-8 sm:mb-4">
               Take over the enemies’ ships!</h2>
             <p className="text-sm lg:text-lg md:text-base sm:text-base font-asbody mb-3 leading-6">

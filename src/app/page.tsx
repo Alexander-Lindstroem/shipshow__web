@@ -8,6 +8,7 @@ import PalmTreesBottom from "@/components/PalmTreesBottom";
 import AboutGame from "@/components/AboutGame";
 import Features from "@/components/Features";
 import Characters from "@/components/Characters";
+import SeparatingPlank from "@/components/SeparatingPlank";
 
 const Home = () => {
   const [chosenSection, setChosenSection] = useState<string | null>(null);
@@ -43,9 +44,14 @@ const Home = () => {
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <PalmTreesLeftRight />
       <PalmTreesBottom />
-      <AboutGame />
-      <Features/>
-      <Characters />
+      <div className="bg-[url(/background-board.jpg)]">
+        <SeparatingPlank/>
+        <AboutGame />
+        <SeparatingPlank/>
+        <Features/>
+        <SeparatingPlank/>
+        <Characters />
+      </div>
     </div>
   );
 };
