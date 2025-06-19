@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutGame() {
   return (
-    <section id="about_game" className="w-full min-h-screen bg-orange-100  pb-12 px-4 sm:px-8 md:px-18 lg:px-24 overflow-hidden pt-10 ">
+    <section id="about_game" className="bg-[url(/background-paper.png)] bg-center bg-no-repeat bg-size-[1600px_95%] lg:bg-size-[110%_88%] w-full min-h-screen pb-12 px-4 sm:px-8 md:px-18 lg:px-24 overflow-hidden pt-10 ">
       <div className="max-w-5xl  mx-auto pl-24 md:pl-30 lg:pl-28 mt-26 md:mt-28 lg:mt-30">
         <div className="mx-auto flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8">
           <div className="w-full lg:w-[400px] md:w-[500px]">
@@ -13,7 +13,7 @@ export default function AboutGame() {
               alt="What is Absolute Shipshow?"
               width={500}
               height={400}
-              className="w-[450px] h-[270px] md:h-[370px] lg:w-[400px] lg:h-[330px] object-cover"
+              className="w-[450px] h-[270px] md:h-[370px] lg:w-[400px] lg:h-[330px] object-cover rounded-2xl mt-8 lg:mt-0"
               priority
             />
           </div>
@@ -31,18 +31,18 @@ export default function AboutGame() {
           </div>
         </div>
 
-        <div className="flex flex-col  items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8 lg:flex-row-reverse">
+        <div className="flex flex-col items-center justify-center gap-8 lg:gap-20 md:gap-15 sm:gap-10 mb-8 lg:flex-row-reverse">
           <div className=" w-full lg:w-[400px] md:w-[500px]">
             <Image
               src="/fight_ship.png"
               alt="How to play?"
               width={500}
               height={400}
-              className="w-[450px] h-[270px]  md:h-[370px] lg:w-[400px] lg:h-[330px] object-cover"
+              className="w-[450px] h-[270px]  md:h-[370px] lg:w-[400px] lg:h-[330px] object-cover rounded-2xl"
               priority
             />
           </div>
-          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify">
+          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify mb-12 lg:mb-0">
             <h2 className="text-xl lg:text-3xl md:text-2xl  font-medium leading-3 tracking-normal font-asheader mb-6 lg:mb-8 md:mb-8 sm:mb-4">
               How to play?
             </h2>
