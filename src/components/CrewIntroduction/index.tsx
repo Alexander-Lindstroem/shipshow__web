@@ -12,7 +12,7 @@ const CrewIntroduction = () => {
                 width={700}
                 height={600}
                 alt="palm tree"
-                className="absolute left-[100%] lg:w-[700px] md:w-[500px] w-[250px] h-auto md:translate-y-[0] -translate-y-[30%] -translate-x-[53%] md:drop-shadow-4xl drop-shadow-xl drop-shadow-black"
+                className="absolute left-[100%] lg:w-[700px] md:w-[500px] w-[250px] h-auto md:translate-y-[0] -translate-y-[50%] -translate-x-[53%] drop-shadow-[-4px_8px_rgba(0,0,0,0.50)] md:drop-shadow-[-10px_8px_rgba(0,0,0,0.50)]"
             />
         </div>
     )

@@ -9,6 +9,12 @@ import Characters from "@/components/Characters";
 import Hero from "@/components/Hero";
 import PalmTreesLeftRight from "@/components/PalmTreesLeftRight";
 import PalmTreesBottom from "@/components/PalmTreesBottom";
+<<<<<<< HEAD
+=======
+import AboutGame from "@/components/AboutGame";
+import Features from "@/components/Features";
+import Characters from "@/components/Characters";
+>>>>>>> fix/palm-tree_sway
 
 const Home = () => {
   const [chosenSection, setChosenSection] = useState<string | null>(null);
@@ -41,13 +47,24 @@ const Home = () => {
   return (
 
     <div>
+      <PalmTreesLeftRight />
       <Hero />
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <AboutGame />
       <PalmTreesLeftRight />
+<<<<<<< HEAD
       <Features/>
       <PalmTreesBottom />
       <Characters />
+=======
+      <AboutGame />
+      <PalmTreesBottom/>
+      <PalmTreesLeftRight/>
+      <Features/>
+      <PalmTreesLeftRight/>
+      <Characters />
+      <PalmTreesBottom/>
+>>>>>>> fix/palm-tree_sway
     </div>
 
   );

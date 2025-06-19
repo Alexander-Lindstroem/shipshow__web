@@ -1,6 +1,10 @@
 import "./globals.css";
+<<<<<<< HEAD
 import Header from "@/components/Header";
+=======
+>>>>>>> fix/palm-tree_sway
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "Absolute Shipshow",
