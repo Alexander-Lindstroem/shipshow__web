@@ -46,7 +46,7 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row-reverse md:flex-col items-center justify-between gap-10">
+        <div className="flex flex-col lg:flex-row-reverse md:flex-col items-center justify-between gap-10 mb-16">
           <div className="w-full lg:w-[400px] md:w-[500px] flex justify-center">
             <Image
               src="/ship.png"
@@ -57,7 +57,7 @@ export default function Features() {
               className="w-[450px] h-[270px] object-cover lg:w-[400px] lg:h-[330px] md:w-[500px] md:h-[370px] rounded-2xl"
             />
           </div>
-          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify max-[768px]:max-w-[450px] mb-20 lg:mb-0">
+          <div className="w-full lg:w-[400px] md:w-[500px] text-inherit text-justify max-[768px]:max-w-[450px]">
             <h2 className="text-xl lg:text-3xl md:text-2xl font-medium leading-3 tracking-normal font-asheader mb-6 lg:mb-8 md:mb-8 sm:mb-4">
               Take over the enemies’ ships!</h2>
             <p className="text-sm lg:text-lg md:text-base sm:text-base font-asbody mb-3 leading-6">
