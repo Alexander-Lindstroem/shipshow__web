@@ -18,6 +18,10 @@ const PalmTreesLeftRight = () => {
         transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
       />
     </div>
+
+
+
+
   );
 };
 
