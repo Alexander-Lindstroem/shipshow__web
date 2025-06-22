@@ -38,18 +38,16 @@ const Home = () => {
   }, [chosenSection]);
 
   return (
-    <div>
-      <PalmTreesLeftRight />
+    <div className="relative">
       <Hero />
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <PalmTreesLeftRight />
       <AboutGame />
-      <PalmTreesBottom/>
       <PalmTreesLeftRight/>
       <Features/>
       <PalmTreesLeftRight/>
       <Characters />
-      <PalmTreesBottom/>
+
     </div>
   );
 };
