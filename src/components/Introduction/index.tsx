@@ -15,7 +15,7 @@ const Introduction = () => {
             </h1>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-4 mt-6">
             <a className="mt-2 sm:mt-6 bg-white hover:bg-[#9f9f9f] text-red-600 text-base px-6 py-3 rounded-3xl cursor-pointer transition-all"
-             href="https://futuregames.itch.io/absoluteshipshow"
+             href="https://www.youtube.com/watch?v=cTHU4Kj_g3s"
              target="_blank"
              rel="noopener noreferrer"
              role="button"
