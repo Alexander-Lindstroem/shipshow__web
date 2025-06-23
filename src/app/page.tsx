@@ -48,7 +48,6 @@ const Home = () => {
         <SeparatingPlank/>
         <PalmTreesLeftRight />
         <AboutGame />
-        <PalmTreesLeftRight/>
         <SeparatingPlank/>
         <PalmTreesLeftRight />
         <Features/>
