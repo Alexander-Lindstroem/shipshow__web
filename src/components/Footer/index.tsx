@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="relative h-14 w-full overflow-x-clip bg-black">
-      <div className="absolute top-0 left-1/2 h-28 w-[120vw] -translate-x-1/2 -translate-y-1/2">
-        <Image
-          src="/pirate-plank.png"
-          alt="Footer Plank"
-          fill
-          priority
-          className="object-fill"
-        />
-      </div>
-    </footer>
+<footer className="relative w-full h-full overflow-x-clip bg-[url('/plank_crew.png')] bg-center bg-no-repeat bg-cover">
+  <div className="flex flex-col items-center justify-center text-center text-gray-200 min-h-[100px] md:min-h-[150px]">
+    <p className="font-bold text-white text-lg">⚓ Absolute ShipShow</p>
+    <p className="text-sm">A chaotic pirate co-op adventure — keep yer ship afloat or sink tryin’!</p>
+    <p className="text-sm">
+      Play now: <a href="https://futuregames.itch.io/absoluteshipshow" target="_blank" rel="noopener noreferrer" className="underline text-blue-300">futuregames.itch.io/absoluteshipshow</a>
+    </p>
+  </div>
+</footer>
+
+
   );
 };
 
