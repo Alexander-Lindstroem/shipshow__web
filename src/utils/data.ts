@@ -42,7 +42,7 @@ export const teamMembers:teamMember[] = [
     {
     name: "Oky Indra Wijaya Palm",
     title: "Art Director",
-    image: "/profile.jpg"
+    image: "/Pirate_Female_Face.png"
     },
     {
     name: "Ella Olson",
@@ -57,12 +57,12 @@ export const teamMembers:teamMember[] = [
     {
     name: "Tim-Eliza White",
     title: "Lead Programmer",
-    image: "/profile.jpg"
+    image: "/Pirate_Female_Face.png"
     },
     {
     name: "Kiwi Backman",
     title: "Game Programmer",
-    image: "/profile.jpg"
+    image: "/Pirate_Male_Face.png"
     },
         {
     name: "Leou Xia",
