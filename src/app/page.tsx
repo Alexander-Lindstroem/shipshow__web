@@ -42,7 +42,6 @@ const Home = () => {
   return (
 
     <div>
-      <PalmTreesLeftRight />
       <Hero />
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <div className="bg-[url(/background-board.jpg)]">
@@ -55,10 +54,7 @@ const Home = () => {
         <Features/>
         <PalmTreesLeftRight/>
         <SeparatingPlank/>
-        <PalmTreesBottom />
         <Characters />
-        <PalmTreesBottom/>
-        <PalmTreesBottom />
       </div>
     </div>
 
