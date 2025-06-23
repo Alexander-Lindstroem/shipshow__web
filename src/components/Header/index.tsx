@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Header = () => {
     return (
-        <div className="w-screen bg-no-repeat z-50 top-0 absolute">
+        <div className="w-screen bg-no-repeat z-50 top-0 absolute overflow-x-clip">
             <div className="absolute w-[120%] h-full z-60 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                     <Image
                         src="/pirate-plank.png"
