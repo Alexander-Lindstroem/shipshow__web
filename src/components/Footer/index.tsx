@@ -4,7 +4,7 @@ import Logo from '../Logo';
 
 const Footer = () => {
   return (
-    <footer className="relative w-full h-[120px] overflow-hidden bg-black">
+    <footer className="relative w-full h-[120px] overflow-hidden bg-black ">
       <div className="absolute inset-0 z-0">
         <Image
           src="/pirate-plank.png"
@@ -15,10 +15,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="relative z-10 flex items-center justify-between w-full h-full px-4 md:px-8">
-        <div className="hidden md:block"> <Logo /> </div>
-      
-
+      <div className="relative z-10 flex items-center  justify-center w-full h-full px-4 md:px-8">
         <div className="flex flex-col items-center justify-center text-center text-white font-asheader w-full md:w-auto">
           <p className="text-3xl md:text-4xl">Absolute ShipShow</p>
           <p className="text-2xl md:text-2xl">A chaotic pirate co-op adventure</p>
@@ -33,9 +30,6 @@ const Footer = () => {
             </a>
           </p>
         </div>
-
-        <div className="hidden md:block"> <Navigation /> </div> 
-      
       </div>
     </footer>
   );
