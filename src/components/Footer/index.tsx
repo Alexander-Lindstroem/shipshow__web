@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Navigation from '../Navigation';
-import Logo from '../Logo';
 
 const Footer = () => {
   return (
