@@ -14,7 +14,7 @@ const Introduction = () => {
                 Chaos reigns on the seven seas - set sail, grab whatever you can, and battle your way through the mayhem!
             </h1>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-4 mt-6">
-            <a className="mt-2 sm:mt-6 bg-white hover:bg-[#9f9f9f] text-red-600 text-base px-6 py-3 rounded-3xl cursor-pointer transition-all"
+            <a className="w-full sm:w-auto sm:min-w-[200px] bg-white hover:bg-[#9f9f9f] text-red-600 text-base px-6 py-3 rounded-3xl cursor-pointer transition-all"
              href="https://www.youtube.com/watch?v=cTHU4Kj_g3s"
              target="_blank"
              rel="noopener noreferrer"
@@ -22,7 +22,7 @@ const Introduction = () => {
              >
                 Watch the trailer
             </a>
-            <a className="mt-2 sm:mt-6 bg-white hover:bg-[#9f9f9f] text-red-600 text-base px-6 py-3 rounded-3xl cursor-pointer transition-all"
+            <a className="w-full sm:w-auto sm:min-w-[200px] bg-white hover:bg-[#9f9f9f] text-red-600 text-base px-6 py-3 rounded-3xl cursor-pointer transition-all"
              href="https://futuregames.itch.io/absoluteshipshow"
              target="_blank"
              rel="noopener noreferrer"
