@@ -8,9 +8,9 @@ const Hero = () => {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 brightness-50"
       >
-        <source src="/video-playback.mp4" type="video/mp4" />
+        <source src="/PlayerAbilities.mov" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 sm:px-20 bg-black/40">
