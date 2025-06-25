@@ -26,3 +26,16 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
+
+@keyframes sway {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(1deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.sway {
+  animation: sway 4s ease-in-out infinite;
+}
+
