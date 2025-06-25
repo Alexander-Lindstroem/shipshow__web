@@ -16,10 +16,10 @@ const Footer = () => {
   </div>
 
   <div className="relative z-10 flex items-center justify-center w-full h-full">
-    <div className="flex flex-col items-center justify-center text-center text-white w-full md:w-auto font-asheader  h-full p-8 md:p-16">
-      <p className="text-2xl  md:text-4xl">Absolute ShipShow</p>
-      <p className="text-xl md:text-2xl">A chaotic pirate co-op adventure</p>
-      <p className="text-l md:text-xl">
+    <div className="flex flex-col items-center justify-center text-center text-white w-full md:w-auto font-asheader h-full p-8 md:p-16">
+      <p className="text-2xl  md:text-4xl drop-shadow-[-3px_3px_rgba(0,0,0,0.50)]">Absolute ShipShow</p>
+      <p className="text-xl md:text-3xl">A chaotic pirate co-op adventure</p>
+      <p className="text-l md:text-2xl">
         Play now:{" "}
         <a
           href="https://futuregames.itch.io/absoluteshipshow"
