@@ -39,17 +39,18 @@ const Home = () => {
   }, [chosenSection]);
 
   return (
-    <div>
+    <div className="relative">
       <Hero />
       <Sidebar sectionChosed={chosenSection} setSection={setChosenSection} />
       <div className="bg-[url(/background-board.jpg)]">
         <SeparatingPlank/>
+        <PalmTreesLeftRight />
         <AboutGame />
         <SeparatingPlank/>
         <PalmTreesLeftRight />
         <Features/>
         <SeparatingPlank/>
-        <PalmTreesBottom />
+        <PalmTreesLeftRight />
         <Characters />
       </div>
     </div>
