@@ -19,7 +19,7 @@ export const characters: Character[] = [
     image: "/Pirate_Male_Character.png",
     posterImage: "/pirate_wanted-poster.png",
     TransparantImage: "/transparant.jpg",
-    info: "No one embraces the legend of privacy quite like Gregore. With a voice that commands storms and a sword nearly as big as his ego, he strides into battle like the ocean owes him money",
+    info: "No one embraces the legend of piracy quite like Gregore. With a voice that commands storms and a sword nearly as big as his ego, he strides into battle like the ocean owes him money",
     info2:
       "Always the first to declare victory, Gregore leads with dramatic flair, reckless courage, and a dangerouslyopen shirt. He's bold, loud, and deeply convinced he was born to rule the seas - or at least look good trying",
   },
